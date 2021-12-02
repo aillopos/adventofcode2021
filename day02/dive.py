@@ -7,17 +7,6 @@ def read_input(filename):
     return d
 
 
-# def get_directions(dat):
-#     wu = np.where(dat[:, 0] == "up")[0]
-#     wd = np.where(dat[:, 0] == "down")[0]
-#     wf = np.where(dat[:, 0] == "forward")[0]
-#
-#     depth = np.sum(dat[wd, 1].astype(np.int)) - np.sum(dat[wu, 1].astype(np.int))
-#     forward = np.sum(dat[wf, 1].astype(np.int))
-#
-#     return depth, forward
-
-
 def get_directions(dat):
     aim, depth, forward = 0, 0, 0
     for i in range(len(dat[:, 0])):

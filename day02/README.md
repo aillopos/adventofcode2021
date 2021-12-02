@@ -70,3 +70,5 @@ After following these new instructions, you would have a horizontal position of 
 Using this new interpretation of the commands, calculate the horizontal position and depth you would have after
 following the planned course.
 _**What do you get if you multiply your final horizontal position by your final depth?**_
+
+`1864715580`
