@@ -2,8 +2,8 @@ import unittest
 import binary_diagnostic
 
 
-class TestSonarSweep(unittest.TestCase):
-    def test_count_step_incs(self):
+class TestAir(unittest.TestCase):
+    def test_gamma(self):
         d = binary_diagnostic.read_input("test_data.txt")
         g, e = binary_diagnostic.calc_gamma(d)
         self.assertEqual(22, g, "gamma should be: 22")
